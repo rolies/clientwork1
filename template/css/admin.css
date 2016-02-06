@@ -1,0 +1,40 @@
+.log-area {
+	width: 320px;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 150px;
+}
+/*--- Dashboard sytle -----*/
+.atas {background-color: #2BD3D6; margin-bottom: 60px; padding-top: 20px; padding-bottom: 20px}
+.menu {background: #F5F5F5; border: 1px dashed #D0D0D0; border-radius: 5px; margin-bottom: 40px}
+.menu ul {padding-top: 30px; padding-bottom: 10px}
+.menu ul li{list-style: none;font-weight: 600; padding-bottom: 10px}
+.menu ul li a{text-decoration: none}
+h2.lengkapi {color: #496285; padding-top: 0; margin-top: 0; margin-bottom: 30px}
+.notif code{margin-top: 3px}
+footer {margin-top: 50px}
+.nav > li > a:hover, .nav > li > a:focus {
+  background-color: #657A97;
+  text-decoration: none;
+  border-radius: 0;
+}
+ul.nav-pills{ background-color: #A4AFC1; margin-bottom: 20px}
+.nav-pills > li > a{padding-top: 16px; padding-bottom: 16px; font-weight: 600; color: #FFF;}
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+  background-color: #657A97;
+  border-radius: 0;
+  color: #fff;
+}
+.perum-area {background: #F2F3F7; 
+	height: 165px; 
+	margin-top: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.perum-area .btn-lg {background: #21BAB5; border: none; width: 100px; border-radius: 2px; height: 50px; padding-top: 11px}
+.judul {color: #414B5D; font-weight: 600}
+.almt {font-weight: 300; font-size: 14px}
+.perum-area .btn-link{text-decoration: underline}
+#tambah input, #tambah textarea {border-radius: 0}
+#inputtipe{width: 56px}
+#inputalamat{width: 320px}

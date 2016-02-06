@@ -1,0 +1,186 @@
+/* Custom CSS for Luthfi Portofolio */
+/*Global style*/
+
+body, html {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 	16px;
+	font-weight: 300;
+	color: #414B5D;
+}
+h1, h2, h3, h4, h5{
+	font-weight: 700;
+}
+h3 {
+	font-size: 20px;
+}
+.txt-pdg {margin-bottom: 3em}
+/*---------- Navigation Style -------------*/
+.navbar-default {
+	color: #FFF;
+}
+.navbar-alt {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #FFF;
+    background-image: none;
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+    border-color: #e8e9ed;
+}
+
+@media(min-width:767px) {
+    .navbar{
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,
+					padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+.fix-menu{
+	width: 90%;
+	margin: auto;
+}
+
+.navbar-default .navbar-nav>li>a{
+	color: #464F56;
+	font-weight: 700;
+}
+.navbar-default .navbar-nav > li > a:hover{
+	background: #DEDEDE;
+}
+.header-container{
+	margin: auto;
+	width: 100%;
+}
+header {
+	margin-bottom: 110px;
+}
+/*--------- Image Header Styele ---------------*/
+.about {
+	margin-top: 6px;
+	margin-bottom: 80px;
+}
+.about, .rumah-huni, .constract {
+	padding-top: 4em;
+	padding-bottom: 3em;
+}
+.about p {
+	line-height: 1.7em;
+	text-indent: 2em;
+}
+.col-md-3 .btn {
+	margin-top: 1em;
+}
+/*--------- Image Header Styele ---------------*/
+.rumah-huni .inner-huni{
+	background: #F2F2F2;
+	padding: 2em 2em 1em 2em;
+}
+.inner-huni p {
+	line-height: 1.8em;
+	text-indent: 2.5em;
+	}
+.inner-huni .btn {margin-top:.9em}
+
+.tags {
+	height: 160px;
+}
+.tags p {clear: both}
+.tags .tipe {padding-top: 2.4em}
+.tags .tipe .tag {
+	padding: 1px 8px;
+	border-radius: 0px;
+	margin-right: 6px;
+	margin-bottom: 7px;
+}
+.tags .btn-daftar {
+	height: 160px;
+	border-left: 1px solid #DEDEEE;
+}
+.tags .btn-daftar .btn{
+	margin-top: 4.5em;
+}
+
+footer{
+	color: #9CD7B0;
+	background: #343B43;
+	padding:2em;
+	text-align: center;
+}
+/*--------- Style for Daftar Perumnas ----------------*/
+.panel-body  p{
+	padding-top: 2em;
+	line-height: 1.6em;
+}
+/*--------- Style for perumnas detail ----------------*/
+.syaratbtm{
+	margin-bottom: 60px;
+}
+.syarat {
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.syarat ul {
+	padding-left: 15px;
+}
+.syarat ul li {
+	line-height: 29px;
+}
+p.alamat {
+	background-color: #414B5D;
+	padding: 10px;
+	color: #FFF;
+}
+.deskrip {
+	margin-top: 80px;
+}
+table {
+	font-size: 	15px;
+}
+tr.succ {
+	background-color: #5DC660;
+	color: #FFF;
+	font-weight: 400;
+}
+.table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td {
+  border: 1px solid #464F56;
+}
+ins {font-weight: 600}
+ul.angsuran li{
+	list-style: none;
+}
+ul.angsuran{
+	line-height: 28px;
+	padding: 0;
+	margin-top: 7px;
+}
+.txt-enhance {
+	color: #5DC660;
+	text-decoration: underline;
+	font-size: 28px;
+}
+.txt-enhanced {
+	text-decoration: underline;
+	font-size: 28px;
+}
+/*--- LIst pEurmnas -------*/
+.list-perumnas {
+	margin-top: 80px;
+	margin-bottom: 100px;
+}
+.alamat-list {
+	font-weight: 400;
+	font-size: 13px;
+}
+.unit {font-weight: 600; font-size: 16px}
+.panel {border-radius: 2px;}
+.panel h4 {padding-top: 10px; margin-bottom: 0; color: #433E38}
+.panel p {margin: 0; padding: 0; padding-top: 3px}
